@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/swiper.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body>
+<div>
+    <div class="search-warp">
+        <input type="text" placeholder="大家都在搜：中国动力谷班车发车时刻表">
+        <img src="images/search-icon.png" alt="" class="search-icon">
+    </div>
+    <div class="swiper-container index-banner" id="banner-swiper-container">
+        <div class="swiper-wrapper" id="banner_image">
+            <div class="swiper-slide">
+                <img src="images/banner.jpg" alt="" class="swiper-image">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banner.jpg" alt="" class="swiper-image">
+            </div>
+        </div>
+        <!--<div class="pagination"></div>-->
+    </div>
+    <div class="index-nav">
+        <ul class="clearfix">
+            <li>
+                <a href="">
+                    <img src="images/icon1.png" alt="">
+                    <p>一卡通充值</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/icon2.png" alt="">
+                    <p>电费缴纳</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/icon3.png" alt="">
+                    <p>园车时刻表</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/icon4.png" alt="">
+                    <p>更多服务</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="live top-line">
+        <div class="head-title">
+            <h1 class="h1">热点新闻 <em>Top chart news</em></h1>
+            <a href="video.html" class="ht-rig" title="查看更多>"></a>
+        </div>
+        <div class="live-con">
+
+            <a href="">
+                <img src="images/hot-new1.jpg" alt="">
+
+                <div class="live-con-head display1">中国动力谷展示中心开馆，打造株洲...</div>
+            </a>
+        </div>
+
+    </div>
+    <div class="live top-line">
+        <div class="head-title">
+            <h1 class="h1">园区风采 <em>Pack style</em></h1>
+            <a href="" class="ht-rig" title="查看更多>"></a>
+        </div>
+        <div class="live-con">
+
+            <a href="">
+                <img src="images/zoo-style.jpg" alt="">
+
+                <div class="live-con-head display1">3年搞定60人，他的传奇人生...</div>
+            </a>
+        </div>
+
+    </div>
+
+
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        effect:'fade',
+        autoplay : 3000,//可选选项，自动滑动
+        loop : true//可选选项，开启循环
+
+    });
+</script>
+</body>
+</html>
